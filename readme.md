@@ -24,4 +24,15 @@ You can change the style of your website by changing the `css` file. Run
 ```bash
  pygmentize -S default -f html > src/static/main.css
 ```
-where default can be replaced by one of the styles  at <https://pygments.org/styles/>
+where default can be replaced by one of the styles  at <https://pygments.org/styles/>.
+
+***
+## USAGE
+
+Running 
+```bash
+python3 ./src/wsgi.py
+```
+will activate a server. You can add as many `.md` markdown files in `./src/templates/blogs`.
+The 
+

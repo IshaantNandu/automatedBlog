@@ -51,4 +51,4 @@ def createApp():
 
 if __name__ == '__main__':
     server = createApp()
-    server.run(debug=True, port=5001, use_reloader=False)
+    server.run( port=5001, use_reloader=False)

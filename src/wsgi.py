@@ -8,7 +8,7 @@ from markupsafe import Markup
 def createApp():
     app: Flask = Flask(__name__)
     view_funcs = {}
-    template: str = ''
+    template:str = ''
     with open('./templates/index.htm') as t:
         template = t.read()
 
@@ -51,4 +51,4 @@ def createApp():
 
 if __name__ == '__main__':
     server = createApp()
-    server.run( port=5001, use_reloader=False)
+    server.run(port=5001, use_reloader=False)

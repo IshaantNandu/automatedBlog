@@ -2,6 +2,7 @@
 
 ***
 
+This is a similar, more primitive version of my website's server
 ## INSTALLATION
 
 Requires python 3.8 or bigger.
